@@ -61,6 +61,6 @@ function appendErrMsgToHTML(msg) {
     })
     .fail(function() {
       alert('映画検索に失敗しました');
-    })
+    });
   });
 });
